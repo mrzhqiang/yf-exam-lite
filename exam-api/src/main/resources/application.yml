@@ -7,17 +7,17 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.11.251:10925/zs_exam?characterEncoding=UTF-8&useUnicode=true&useSSL=false
-    username: root
-    password: Root@123456
+    url: jdbc:mysql://rm-wz9u27rgv130g4xn04o.mysql.rds.aliyuncs.com:3306/zs_exam?characterEncoding=UTF-8&useUnicode=true&useSSL=false
+    username: zs_exam
+    password: qwer12355@@
 
   # Redis配置
   redis:
-    database: 0
+    database: 11
     host: 127.0.0.1
     port: 6379
-    password:
-    timeout: 5000
+    password: 123456
+    timeout: 10000
 
 # 日志级别
 logging:
